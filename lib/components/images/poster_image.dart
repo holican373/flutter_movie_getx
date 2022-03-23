@@ -15,13 +15,13 @@ class PosterImage extends StatelessWidget {
       placeholder: (context, url) => const SizedBox(
         width: double.infinity,
         child: Image(
-          image: AssetImage("assets/img/movie.png"),
+          image: AssetImage("assets/img/download.png"),
         ),
       ),
       errorWidget: (context, url, error) => const SizedBox(
         width: double.infinity,
         child: Image(
-          image: AssetImage("assets/img/error.png"),
+          image: AssetImage("assets/img/download.png"),
         ),
       ),
     );
